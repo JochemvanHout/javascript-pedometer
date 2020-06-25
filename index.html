@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Pedometer - Steps per Minute Calculator</title>
+    <link rel="stylesheet" href="css/simpleclient.css">
+</head>
+
+<audio id="completionAudio">
+  <source src="assets/completion.mp3" type="audio/mpeg">
+</audio>
+
+
+<body>
+    <div id="wrapper">
+
+        <h1  id="stepCounter">0</h1>
+
+        <hr />
+
+        <p id="avgSPM">Press start and start running, the system will calculate your steps per minute.</p>
+
+
+        <button id="startButton">Start</button>
+      
+        
+
+    </div>
+</body>
+
+    <script src="js/footstrike_detector.js"></script>
+    <script src="js/simpleclient.js"></script>
+
+</html>
